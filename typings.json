@@ -1,0 +1,13 @@
+{
+  "globalDependencies": {
+    "docopt": "registry:dt/docopt#0.0.0+20160316155526",
+    "gulp-util": "registry:dt/gulp-util#0.0.0+20160316155526",
+    "node": "registry:env/node#6.0.0+20160723033700",
+    "tmp": "registry:dt/tmp#0.0.0+20160514170650",
+    "vinyl": "registry:dt/vinyl#1.1.0+20160316155526"
+  },
+  "dependencies": {
+    "chalk": "registry:npm/chalk#1.0.0+20160723033700",
+    "through2": "registry:npm/through2#2.0.0+20160723033700"
+  }
+}
