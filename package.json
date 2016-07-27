@@ -1,6 +1,6 @@
 {
   "name": "dts2externs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parse typescript d.ts files and output google closure compiler externs",
   "main": "dist/dts2externs.js",
   "typings": "dist/dts2externs.d.ts",
@@ -38,7 +38,6 @@
     "url": "https://github.com/WHUsoft/dts2externs/issues"
   },
   "homepage": "https://github.com/WHUsoft/dts2externs#readme",
-
   "devDependencies": {
     "dependency-check": "2.6.0",
     "rimraf": "2.5.4",
@@ -51,5 +50,9 @@
     "tmp": "0.0.28",
     "typescript": "1.8.10"
   },
-  "-vs-binding": { "AfterBuild": [ "test" ] }
+  "-vs-binding": {
+    "AfterBuild": [
+      "test"
+    ]
+  }
 }
